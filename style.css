@@ -28,6 +28,14 @@
     height: 257px;
 
 }
+.singUp:hover{
+    font-weight: bold;
+    border-bottom: 3px white solid;
+    cursor:pointer
+}
+.singUp{
+    color: white;
+}
 .active_matches{
     font-weight: bold;
     border-bottom: 3px white solid;
@@ -366,6 +374,62 @@
 .container_left_div6>p:hover{
     background-color: #a6defa ;
 }
+
+/*after  linked start ************************************************************************/
+
+.container_left_div2>a>p{
+    font-size: 14px;
+    padding-left: 25px;
+    line-height: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.container_left_div2>a>p:hover{
+    background-color: #a6defa ;
+}
+
+.container_left_div3>a>p{
+    font-size: 14px;
+    padding-left: 25px;
+    line-height: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.container_left_div4>a>p{
+    font-size: 14px;
+    padding-left: 25px;
+    line-height: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.container_left_div5>a>p{
+    font-size: 14px;
+    padding-left: 25px;
+    line-height: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.container_left_div6>a>p{
+    font-size: 14px;
+    padding-left: 25px;
+    line-height: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.container_left_div3>p:hover{
+    background-color: #a6defa ;
+}
+.container_left_div4>a>p:hover{
+    background-color: #a6defa ;
+}
+.container_left_div5>a>p:hover{
+    background-color: #a6defa ;
+}
+.container_left_div6>a>p:hover{
+    background-color: #a6defa ;
+}
+
+/*after  linked end *****************************************************************/
 
 /* --------------------------------------------------------------------------------------------------------------------middle container */
 /* middle container  */
