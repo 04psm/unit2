@@ -658,6 +658,20 @@ a{
 .container_right_inner_div2>.zoomEf>img:hover{
     transform: scale(1.1);
 }
+.container_right_inner_div2>a>.zoomEf>img{
+    /* margin-top: 15px;
+    width: 90%;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    width: 100%;
+   
+    transition: 0.5s all ease-in-out;
+}
+.container_right_inner_div2>a>.zoomEf>img:hover{
+    transform: scale(1.1);
+}
 .zoomEf{
     /* width: 90%;
     height: auto;
