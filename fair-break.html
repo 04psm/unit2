@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live-score Navbar</title>
+    <link rel="stylesheet" href="left-part.css">
+    <link rel="shortcut icon" href="https://a.espncdn.com/combiner/i?img=/i/icons/cricket/ESPN-icon-cricket2.png&w=288&h=288&transparent=true">
+    <style>
+        td{
+            padding: 8px 8px 8px 8px;
+            
+        }
+        tr{
+            border-bottom: 0.05px solid #d9dadd;
+        }
+        thead{
+            color: #6c6d6f;
+            background-color: #f3f4f7;
+        }
+        thead, th{
+            padding: 8px 12px 8px 8px;
+            text-align: left;
+        }
+        #add-hover:hover{
+            color: #03a9f4;
+            cursor: pointer;
+        }
+        #hover-underline:hover{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+  
+ <!--Head start-->
+<div id="head">
+    <div id="head_body">
+        <div id="match_box_text">
+         <span>Matches</span>
+         <span>IPL</span>
+         <span>INTER PRO</span>
+        </div>
+        <div id="match_box_body">
+        <!--match box 1-->
+          <div class="match_box">
+           <div class="match_headline">RESULT.48th Match. T20.DY Patil</div>
+           <div class="team_1">
+             <div class="team1_split">
+               <div class="team_logo"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/334700/334707.png" alt=""></div>
+               <div class="team_name">GT</div>
+             </div>
+               <div class="team1_live_score">143/8</div>
+           </div>
+
+           <div class="team_1">
+             <div class="team1_split">
+               <div class="team_logo"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/317000/317003.png" alt=""></div>
+               <div class="team_name">GT</div>
+             </div>
+               <div class="team1_live_score"> 145/2</div>               
+           </div>
+           <p class="bottom_table_p">Punjab Kings won by 8 wickets(with 24 balls remaining)</p>
+           <hr class="bottom_table_hr">
+           <div class="bottom_table">
+             <p>Schedule</p>
+             <p>Table</p>
+             <p>Report</p>
+           </div>
+         </div>
+         <!--match box 2-->
+         <div class="match_box">
+           <div class="match_headline">RESULT. 1st Match. List A . Dublin</div>
+           <div class="team_1">
+             <div class="team1_split">
+               <div class="team_logo"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/338700/338765.png" alt=""></div>
+               <div class="team_name">NWW</div>
+             </div>
+               <div class="team1_live_score">185</div>
+           </div>
+
+           <div class="team_1">
+             <div class="team1_split">
+               <div class="team_logo"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/338700/338763.png" alt=""></div>
+               <div class="team_name">LEINS</div>
+             </div>
+               <div class="team1_live_score">186/3</div>               
+           </div>
+           <p class="bottom_table_p">Leinster won by 7 wickets(with 37 balls remaining)</p>
+           <hr class="bottom_table_hr">
+           <div class="bottom_table">
+             <p>Schedule</p>
+             <p>Table</p>
+            
+           </div>
+         </div>
+         <!--match box 3-->
+         <div class="match_box">
+           <div class="match_headline">TODAY.7:30 PM . 49th Match . T20 . Pune</div>
+           <div class="team_1">
+             <div class="team1_split">
+               <div class="team_logo"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/334700/334707.png" alt=""></div>
+               <div class="team_name">RCB</div>
+             </div>
+               <div class="team1_live_score"></div>
+           </div>
+
+           <div class="team_1">
+             <div class="team1_split">
+               <div class="team_logo"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/334700/334707.png" alt=""></div>
+               <div class="team_name">CSK</div>
+             </div>
+               <div class="team1_live_score"></div>               
+           </div>
+           <p class="bottom_table_p">Match yet to begin</p>
+           <hr class="bottom_table_hr">
+           <div class="bottom_table">
+             <p>Schedule</p>
+             <p>Table</p>
+             <p>Fantasy</p>
+           </div>
+         </div>
+        </div>
+    </div>
+ </div>
+ <!--Head end -->
+ <!--Navbar start-->
+ <div id="navbar">
+     <div id="navbar_body">
+         <div class="nav_img"> <img src="https://wassets.hscicdn.com/static/images/logo.png" alt="logo"> </div>
+         <div class="nav_info">
+             <span>Live Scores</span>
+             <span>Series</span>
+             <span>Teams</span>
+             <span>News</span>
+             <span>Features</span>
+             <span>Videos</span>
+             <span>Stats</span>
+         </div>
+         <div class="nav_icons">
+             <span class="nav_Ficon"> <img  src="https://wassets.hscicdn.com/static/images/fantasy-home.png" alt=""> </span>
+             <span> Fantasy</span>
+             <span>Edition IN</span>
+             <span>MOON</span>
+             <span>Bell</span>
+             <span>Translate</span>
+             <span>cube</span>
+             <span>Search</span>
+         </div>
+     </div>
+ </div>
+ <!--Navbar end-->
+
+ <!-- sub-nav-bar start -->
+    <nav id="sub-nav-bar">
+            <ul id="list">
+                <li> <a id="ipl" href="#">FairBreak Invitational Tournament 2022</a> </li> 
+                <li> <a  style="font-size: 30px;" href="#">|</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Fixtures and Results</a> </li>
+                <li><a href="#">Table</a> </li>
+                <li><a href="#">Videos</a> </li>
+                <li><a href="#">Stats</a> </li>
+                <li><a href="#">Squads </a></li>
+                <li><a href="#">Seasons </a> </li>
+                <li><a href="#">Photos</a> </li>
+            </ul>
+    </nav>
+<!-- sub-nav-bar start -->
+<div>
+    <img id="add-image" src="new-one.PNG" alt="">
+</div>
+<div id="main-cont">
+
+<!-- Left content box start -->
+<div id="left-box">
+        <!-- buttons start -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr">
+            <div style="background-color: #03a9f4; padding: 8px 25px; cursor: pointer;  border-top-left-radius: 5px; border-bottom-left-radius: 5px;">
+                 <span > <a id="span-click1" href="#">Fixtures</a> </span>
+             </div> 
+     
+             <div style="background-color: #fff;padding: 7px 25px; border: 1px solid #03a9f4 ;cursor: pointer;border-top-right-radius:5px;border-bottom-right-radius:5px; text-align: center;" >
+                     <span > <a id="span-click2" href="#">Results</a> </span>
+              </div> 
+        </div>
+      <!-- buttons end -->
+    <div class="match_box1">
+        <h6 style="color: red;">Live</h6>
+        <div class="match_headline1">4th Match (D/N), Dubai (DSC), May 06, 2022, F..</div>
+            <div class="team_1_1">
+              <div class="team1_split1">
+                <div class="team_logo1"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/338700/338729.png" alt=""></div>
+                    <div class="team_name1">BARMY</div>
+                        </div>
+                            <div class="team1_live_score1">(3.6/20 ov) : 11/0</div>
+            </div>
+ 
+            <div class="team_1_1">
+                <div class="team1_split1">
+                    <div class="team_logo1"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/338700/338727.png" alt=""></div>
+                        <div class="team_name1">FAL</div>
+                            </div>
+                                <div class="team1_live_score1"></div>               
+            </div>
+            <p class="bottom_table_p1">Falcons chose to field.</p>
+            <hr class="bottom_table_hr1">
+    </div>
+
+    <div class="match_box1">
+        <h6 >TODAY, 10:00 PM</h6>
+        <div class="match_headline1">5th Match (N), Dubai (DSC), May 06, 2022, Fair..</div>
+            <div class="team_1_1">
+              <div class="team1_split1">
+                <div class="team_logo1"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/338700/338731.png" alt=""></div>
+                    <div class="team_name1">TOR</div>
+                        </div>
+                            <div class="team1_live_score1"></div>
+            </div>
+ 
+            <div class="team_1_1">
+                <div class="team1_split1">
+                    <div class="team_logo1"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/338700/338732.png" alt=""></div>
+                        <div class="team_name1">WAR</div>
+                            </div>
+                                <div class="team1_live_score1"> </div>               
+            </div>
+            <p class="bottom_table_p1">Match starts in 4 hrs 12 mins</p>
+            <hr class="bottom_table_hr1">
+    </div>
+
+    <div class="match_box1">
+        <h6 >TOMORROW, 6:00 PM</h6>
+        <div class="match_headline1">6th Match (D/N), Dubai (DSC), May 07, 2022, Fa..</div>
+            <div class="team_1_1">
+              <div class="team1_split1">
+                <div class="team_logo1"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/338700/338727.png" alt=""></div>
+                    <div class="team_name1">FAL</div>
+                        </div>
+                            <div class="team1_live_score1"></div>
+            </div>
+ 
+            <div class="team_1_1">
+                <div class="team1_split1">
+                    <div class="team_logo1"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/338700/338730.png" alt=""></div>
+                        <div class="team_name1">SPR</div>
+                            </div>
+                                <div class="team1_live_score1"> </div>               
+            </div>
+            <p class="bottom_table_p1">Match yet to begin</p>
+            <hr class="bottom_table_hr1">
+    </div>
+
+    <div class="match_box1">
+        <h6 >TOMORROW, 10:00 PM</h6>
+        <div class="match_headline1">7th Match (N), Dubai (DSC), May 07, 2022, FairBr..</div>
+            <div class="team_1_1">
+              <div class="team1_split1">
+                <div class="team_logo1"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/338700/338732.png" alt=""></div>
+                    <div class="team_name1">WAR</div>
+                        </div>
+                            <div class="team1_live_score1"></div>
+            </div>
+ 
+            <div class="team_1_1">
+                <div class="team1_split1">
+                    <div class="team_logo1"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/338700/338728.png" alt=""></div>
+                        <div class="team_name1">SAP</div>
+                            </div>
+                                <div class="team1_live_score1"> </div>               
+            </div>
+            <p class="bottom_table_p1">Match yet to begin.</p>
+            <hr class="bottom_table_hr1">
+    </div>
+
+    <div class="match_box1">
+        <h6 >TUES, 10 MAY, 6:00 PM</h6>
+        <div class="match_headline1">8th Match (D/N), Dubai (DSC), May 08, 2022, Fai..</div>
+            <div class="team_1_1">
+              <div class="team1_split1">
+                <div class="team_logo1"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/338700/338732.png" alt=""></div>
+                    <div class="team_name1">WAR</div>
+                        </div>
+                            <div class="team1_live_score1"></div>
+            </div>
+ 
+            <div class="team_1_1">
+                <div class="team1_split1">
+                    <div class="team_logo1"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/338700/338730.png" alt=""></div>
+                        <div class="team_name1">SPR</div>
+                            </div>
+                                <div class="team1_live_score1"> </div>               
+            </div>
+            <p class="bottom_table_p1">Match yet to begin</p>
+            <hr class="bottom_table_hr1">
+    </div>
+
+    <div class="match_box1">
+        <h6 >TUES, 10 MAY, 10:00 PM</h6>
+        <div class="match_headline1">11th Match (N), Dubai (DSC), May 10, 2022, FairBreak I..</div>
+            <div class="team_1_1">
+              <div class="team1_split1">
+                <div class="team_logo1"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/338700/338729.png" alt=""></div>
+                    <div class="team_name1">BARMY</div>
+                        </div>
+                            <div class="team1_live_score1"></div>
+            </div>
+ 
+            <div class="team_1_1">
+                <div class="team1_split1">
+                    <div class="team_logo1"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/338700/338728.png" alt=""></div>
+                        <div class="team_name1">SAP</div>
+                            </div>
+                                <div class="team1_live_score1"> </div>               
+            </div>
+            <p class="bottom_table_p1">Match yet to begin</p>
+            <hr class="bottom_table_hr1">
+    </div>
+    <div class="match_box1">
+        <h6 >TUES, 10 MAY, 10:00 PM</h6>
+        <div class="match_headline1">11th Match (N), Dubai (DSC), May 10, 2022, FairBreak I..</div>
+            <div class="team_1_1">
+              <div class="team1_split1">
+                <div class="team_logo1"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/338700/338729.png" alt=""></div>
+                    <div class="team_name1">BARMY</div>
+                        </div>
+                            <div class="team1_live_score1"></div>
+            </div>
+ 
+            <div class="team_1_1">
+                <div class="team1_split1">
+                    <div class="team_logo1"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/338700/338728.png" alt=""></div>
+                        <div class="team_name1">SAP</div>
+                            </div>
+                                <div class="team1_live_score1"> </div>               
+            </div>
+            <p class="bottom_table_p1">Match yet to begin</p>
+            <hr class="bottom_table_hr1">
+    </div>
+
+    <div class="match_box1">
+        <h6 >TUES, 10 MAY, 10:00 PM</h6>
+        <div class="match_headline1">11th Match (N), Dubai (DSC), May 10, 2022, FairBreak I..</div>
+            <div class="team_1_1">
+              <div class="team1_split1">
+                <div class="team_logo1"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/338700/338729.png" alt=""></div>
+                    <div class="team_name1">BARMY</div>
+                        </div>
+                            <div class="team1_live_score1"></div>
+            </div>
+ 
+            <div class="team_1_1">
+                <div class="team1_split1">
+                    <div class="team_logo1"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/338700/338728.png" alt=""></div>
+                        <div class="team_name1">SAP</div>
+                            </div>
+                                <div class="team1_live_score1"> </div>               
+            </div>
+            <p class="bottom_table_p1">Match yet to begin</p>
+            <hr class="bottom_table_hr1">
+    </div>
+
+    <div class="match_box1">
+        <h6 >TUES, 10 MAY, 10:00 PM</h6>
+        <div class="match_headline1">11th Match (N), Dubai (DSC), May 10, 2022, FairBreak I..</div>
+            <div class="team_1_1">
+              <div class="team1_split1">
+                <div class="team_logo1"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/338700/338729.png" alt=""></div>
+                    <div class="team_name1">BARMY</div>
+                        </div>
+                            <div class="team1_live_score1"></div>
+            </div>
+ 
+            <div class="team_1_1">
+                <div class="team1_split1">
+                    <div class="team_logo1"><img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/338700/338728.png" alt=""></div>
+                        <div class="team_name1">SAP</div>
+                            </div>
+                                <div class="team1_live_score1"> </div>               
+            </div>
+            <p class="bottom_table_p1">Match yet to begin</p>
+            <hr class="bottom_table_hr1">
+    </div>
+    <div><h4 style="text-align: left; margin-top: 8px; color: #03a9f4; cursor: pointer;">VIEW ALL FIXTURES</h4></div>
+</div>
+<!-- Left content box end -->
+
+<!-- Mid content box start -->
+<div id="mid-box" > 
+    <div id="mid-box-inside">
+    
+        <div style="border-bottom:.1px solid rgb(235, 232, 232);">
+            <div style="overflow: hidden;">
+                <img  id="mid-img" style="width:100%; " src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_720/lsci/db/PICTURES/CMS/338700/338735.6.jpg" alt="">
+            </div>
+
+                <div style="background-color: black;position: relative; margin-top: -10px; padding: 10px; border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;"> 
+                    <h2 style="color: white;">FairBreak-bound Sana Mir excited to share stage alongside 'great group of people'</h2>
+                    <p style="color: white;">"Sports can transcend boundaries and nationalities and that's what we are seeing here"</p>
+                </div> 
+    
+        </div>
+       
+    </div>
+
+</div>
+  
+<!-- Mid content box end -->
+
+<!-- Right content box start -->
+<div id="Right">
+    <!-- table start point -->
+    <div id="right-box-table">
+        <div style="padding: 10px;">FairBreak Invitational Tournament</div>
+        <table  style=" width:100%;font-size: 15px; margin-top: 5px;border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th > <span>TEAM</span> </th>
+                    <th> <span>M</span> </th>
+                    <th> <span>W</span> </th>
+                    <th> <span>L</span> </th>
+                    <th> <span>PT</span> </th>
+                    <th> <span>NRR</span> </th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td id="add-hover"><b><u>BARMY</u></b></td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td ><b>4</b></td>
+                <td>2.500</td>
+            </tr>
+            <tr>
+                <td id="add-hover"> <b><u>TOR</u></b></td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td><b>4</b></td>
+                <td>0.850</td>
+            </tr>
+            <tr>
+                  <td id="add-hover"><b><u>FAL</u></b> </td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                 <td><b>4</b></td>
+                <td>0.686</td>
+            </tr>
+            <tr>
+                <td id="add-hover"><b><u>WAR</u> </b> </td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                 <td><b>0</b></td>
+                <td>-0.686</td>
+            </tr>
+            <tr>
+                  <td id="add-hover">  <b><u>SAP</u> </b> </td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>1</td>
+                   <td><b>0</b></td>
+                  <td>-0.850</td>
+            </tr>
+            <tr>
+                 <td id="add-hover">  <b><u>SPR</u> </b> </td>
+                 <td>1</td>
+                  <td>0</td>
+                  <td>1</td>
+                   <td><b>0</b></td>
+                  <td>-2.50</td>
+            </tr>
+        </tbody>
+        </table>
+        <div><h4 id="hover-underline" style="text-align: center; margin-top: 10px;margin-bottom: 10px; color: #03a9f4; cursor: pointer;">Full Table</h4></div>
+      </div>
+ <!-- table end point -->   
+
+
+</div>    
+<!-- Right content box end-->  
+</div>
+</body>
+</html>
