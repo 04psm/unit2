@@ -303,10 +303,10 @@
 .bottom-left{
     /* border: 1px solid red; */
     height: 40px;
-    width: 801px;
-    position: absolute;
-    bottom: -365px;
-    left: 400px;
+    width: 802px;
+    position: relative;
+    bottom: 40px;
+    left: 40px;
     margin-bottom: -27px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 12px;
