@@ -305,9 +305,9 @@
     /* border: 1px solid red; */
     height: 20px;
     width: 801px;
-    position: absolute;
-    bottom: -341px;
-    left: 400px;
+    position: relative;
+    bottom: 84px;
+    left: 40px;
     margin-bottom: -50px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 12px;

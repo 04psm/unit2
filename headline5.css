@@ -301,10 +301,10 @@
 
 .bottom-left{
     height: 30px;
-    width: 801px;
-    position: absolute;
-    bottom: -350px;
-    left: 400px;
+    width: 802px;
+    position: relative;
+    bottom: 60px;
+    left: 40px;
     margin-bottom: -70px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 12px;
