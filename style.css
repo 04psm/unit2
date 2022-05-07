@@ -1,10 +1,18 @@
 *{
     padding: 0px;
     margin: 0px;
+   
     font-family: BentonSans-Bold,Arial,Noto Sans,sans-serif;
     
 }
-
+/*some color set and  font*/
+.grey{
+    color: #666;
+}
+.tnc{
+    color: #2b2c2d;
+}
+/* end some color set and  font*/
 /*head start*/
 #head{
     background-color: #0a9bdf;
@@ -57,8 +65,8 @@
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .match_headline{
-    font-size: 14px;
-    margin-top: 10px;
+    font-size: 12px;
+    margin-top: 13px;
     margin-left: 15px;
 }
 .team_1{
@@ -83,6 +91,7 @@
     margin-left: 15px;
     font-size: 15px;
     padding-top: 5px;
+    font-weight: bold;
 }
 .team1_live_score{
     padding-top: 8px;
@@ -95,7 +104,9 @@
 .bottom_table>p{
     margin-left: 15px;
     padding-top: 10px;
-    margin-right: 15px;
+    margin-right: 5px;
+    font-weight: 600;
+    font-size: 13px;
 }
 .bottom_table>p:hover{
         border-bottom: 2px black solid;
@@ -195,7 +206,47 @@
     margin-right: -10px;
     
 }
-/* navbar end */
+/* navbar end ========================================================================Bottom Navbar======================================*/
+
+/* bottom navbar*/
+.bottom_navbar {
+    overflow: hidden;
+    background-color: #fcf9f9;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: none;
+    justify-content: space-evenly;
+  }
+  
+  .bottom_navbar a {
+    float: left;
+    display: block;
+    color: #666;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .bottom_navbar a:hover {
+    /* background: #f1f1f1; */
+
+    color: #0a9bdf;
+  }
+  
+  /*below this part is active navbar part for Home */
+  /* .bottom_navbar a.active {
+    background-color: #0a9bdf;
+    color: white;
+  } */
+  
+
+/* bottom navbar end ****************************************************************************************************/
+
+
 
 /* container Body  start*/
 /* -------------------------------------------------------------------------------------------------------------------------------- container */
@@ -243,13 +294,13 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 15px 50px 15px 50px;
+    padding: 12px 55px 12px 55px;
     border-radius: 50px;
     background-color: #ffffff;
     border-color: #03A9Fa;
     color: #03A9Fa;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 20px;
 }
 
@@ -257,7 +308,9 @@
     margin-top: 10px;
     margin-left: 25px;
     line-height: 35px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: 600;
+
 }
 
 
@@ -445,6 +498,7 @@
     height: 200px;
     width: 95%;
     margin: auto;
+    margin-bottom: 20px;
 }
 .sub_div_flex{
     /* border: 1px red solid ; */
@@ -614,10 +668,10 @@
     font-size: 10px;
     margin-right: 5px;
 }
-
+/* 
 .footer_copyright{
-    /* border: 1px red solid; */
-}
+    
+} */
 .footer_copyright>p:hover{
     cursor: pointer;
     border-bottom: 1px #666 solid;
@@ -668,9 +722,30 @@
     margin-right: 16px;
     font-size: 16px;
 }
+.bottom_navbar{
+    display: none;
+}
 .hide{
     display: none;
 }
+
+.footer_info_head>p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.footer_info_head>h3{
+   font-size: 16px;
+}
+.footer_layer{
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px; 
+    border: 1px white solid;
+    width: 86%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    border-radius: 20px ;
+}
+
 
 }
 
@@ -690,9 +765,11 @@
     .nav_img{
         width: 35%;
     }
-
+    .bottom_navbar{
+        display: flex;
+    }
     .nav_icons{
-        margin-left: 300px;
+        margin-left: 130px;
     }
    .nav_icons>span{
         font-size: 24px;
