@@ -544,15 +544,23 @@
     border-radius: 21px;
 
 }
-.container_right_div1>p{
+.container_right_div1>a>p{
+    color: #2b2c2d;
     font-size: 14px;
     padding-left: 25px;
     line-height: 25px;
     margin-bottom: 20px;
+    margin-top: 5px;
 }
 
-.container_right_div1>p:hover{
+.container_right_div1>a>p:hover{
     background-color: #a6defa ;
+}
+
+a{
+    text-decoration: none;
+   color: #2b2c2d;
+    
 }
 
 .container_right_inner_div2{
